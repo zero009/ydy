@@ -1,0 +1,104 @@
+header{
+    border-bottom: 1px solid #ddd;
+}
+header span{
+    color: #909090;
+    border:1px solid #ddd;
+    height: 2.22rem;
+    line-height: 2.22rem;
+    background: #fff;
+    font-size: 1.11rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+header span.active{
+    color: #9b3539;
+    border:1px solid #9b3539;
+}
+.choose-area{
+    padding: 1.03rem 0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.choose-area span{
+    width: 6.52rem;
+}
+.choose-area span:nth-of-type(1){
+    margin: 0 1.03rem 0 .73rem;
+}
+.change-community{
+    padding: 0 .5rem;
+}
+.change-community h3{
+    font-weight: normal;
+    height: 2.22rem;
+    line-height: 2.22rem;
+    padding: 1.03rem 0;
+}
+.change-community h3 span{
+    width: 6.52rem;
+}
+.change-community i{
+    width: 0;
+    height: 1.11rem;
+    float: right;
+    margin-right: .74rem;
+    border-bottom: 10px solid #9b3539;
+    border-left: 10px solid  transparent;
+}
+.change-community span{
+    width: 5.4rem;
+    margin: 0px .3rem 10px .3rem;
+    box-flex:1;
+}
+section{
+    background: #fff;
+}
+.content_a{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: .71rem 0;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+.content_a p{
+    display: inline-block;
+}
+.content_a p:nth-of-type(1){
+    width: 35%;
+    margin: 0 1rem;
+}
+.content_a p:nth-of-type(1) strong{
+    width: 5.93rem;
+    height: 5.93rem;
+    display: inline-block;
+}
+.content_a p:nth-of-type(2) strong{
+    font-size: 1.11rem;
+    color: #323232;
+    display: inline-block;
+    padding-right: .81rem;
+    line-height: 1.78rem;
+}
+.content_a p span{
+    font-size: .89rem;
+    color: #909090;
+    line-height: 1.51rem;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow : hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-right: 1.1rem;
+}
+.content_a p em{
+    font-size: .815rem;
+    padding: .17rem .73rem;
+    border:1px solid #9b3539;
+    color: #9b3539;
+    border-radius:4px;
+    display: inline-block;
+    margin-top: 6px;
+}

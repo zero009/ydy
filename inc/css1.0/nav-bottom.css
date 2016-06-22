@@ -1,0 +1,61 @@
+/*底部导航样式 start*/
+.bottom-nav i{
+    background: url("../../img1.0/index_icon.png") no-repeat;
+    background-size: 50px auto;
+    display: inline-block;
+    position: static;
+    width: 40px;
+    height: 22px;
+}
+
+.bottom-nav span{ display: block; }
+.bottom-nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    border-top:1px solid #ccc;
+}
+.bottom-nav li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 5px 0;
+}
+.bottom-nav li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    color: #7d7c81;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+.bottom-nav .index-icon{
+    background-position: 10px 0;
+}
+.bottom-nav .community-icon{
+    background-position: 10px -148px;
+}
+.bottom-nav .health-icon{
+    background-position: 10px -99px;
+}
+.bottom-nav .user-icon{
+    background-position: 10px -48px;
+}
+.bottom-nav .current a{ color: #9b3539; }
+.current .index-icon{ background-position: 10px -24px;}
+.current .community-icon{ background-position: 10px -172px;}
+.current .health-icon{ background-position: 10px -123px;}
+.current .user-icon{ background-position: 10px -71px;}
+/*@media (max-width:320px){*/
+    /*.bottom-nav .user-icon{*/
+        /*background-position: 16px -48px;*/
+    /*}*/
+    /*.bottom-nav li:nth-last-of-type(1) span{*/
+        /*text-indent: 10px;*/
+    /*}*/
+    /*.current .user-icon{ background-position: 16px -71px;}*/
+/*}*/
+/*底部导航样式 end*/

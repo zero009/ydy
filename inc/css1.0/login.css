@@ -1,0 +1,62 @@
+.enter-num span{
+    height: 4.44rem;
+    line-height: 4.44rem;
+    background: #fff;
+    border-bottom:1px solid #ddd;
+    padding-left: .81rem;
+    position: relative;
+    display: block;
+}
+.enter-num span input{
+    font-size: 1.48rem;
+}
+/*.enter-num span input::-webkit-input-placeholder{*/
+    /*font-size: 1.11rem;*/
+    /*line-height: .5rem;*/
+/*}*/
+.enter-num span em{
+    width: 6.67rem;
+    height: 2.37rem;
+    font-size: 14px;
+    line-height: 2.46rem;
+    text-align: center;
+    border:1px solid #9b3539;
+    /*font-size: 1.11rem;*/
+    color: #9b3539;
+    border-radius:4px;
+    margin-right: .73rem;
+    position: absolute;
+    top:24%;
+    right: 0%;
+}
+p:nth-of-type(1){
+    padding: 1.11rem 0 1.11rem 2.5%;
+    color: #9e9e9e;
+
+}
+.login-btn{
+    width: 95%;
+    height: 3.7rem;
+    margin: 0 auto 12.1rem;
+    line-height: 3.7rem;
+    text-align: center;
+    background: #9b3539;
+    border-radius:4px;
+    color:#fff;
+    font-size: 1.24rem;
+}
+.login-pic{
+    width: 154px;
+    height: 47px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-btn img{
+    width: 100%;
+    height: 100%;
+}
+p:nth-last-of-type(1){
+    padding: 1.04rem;
+    color: #a8aa83;
+    text-align: center;
+}
